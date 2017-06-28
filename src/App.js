@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import marked from 'marked';
-import hljs from 'highlight.js';
+//import hljs from 'highlight.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -22,9 +22,9 @@ class App extends Component {
       sanitize: true,
       smartLists: true,
       smartypants: false,
-      highlight: function (code) {
-        return hljs.highlightAuto(code).value
-      }
+      // highlight: function (code) {
+      //   return hljs.highlightAuto(code).value
+      // }
     })
 
     var rawMarkup = marked(this.state.content, {sanitize: true})
