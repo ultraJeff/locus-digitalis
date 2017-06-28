@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ultraJeff.github.io/locus-digitalis",
   "dependencies": {
+    "highlight.js": "^9.12.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
